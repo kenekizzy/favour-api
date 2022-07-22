@@ -1,0 +1,34 @@
+{
+  "name": "favour_akomolafe",
+  "version": "1.0.0",
+  "description": "portfolio site for showcasing projects completed by  favour akomolafe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "hayormikun"
+  },
+  "keywords": [
+    "frontend",
+    "backend",
+    "react.js",
+    "next.js",
+    "node.js",
+    "REST",
+    "API"
+  ],
+  "author": "Favour Akomolafe",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "mongoose": "^6.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
