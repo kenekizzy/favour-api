@@ -14,7 +14,7 @@ import userRouter from "./routes/userRoutes.js";
 
 import authRouter from "./routes/authRoutes.js"
 
-import listingRouter from './routes/listingRoute.js'
+import postRouter from './routes/postRoute.js'
 
 //Connect to the Database
 connectDB()
@@ -31,7 +31,7 @@ app.use("/api/user", userRouter)
 
 app.use("/api/auth", authRouter)
 
-app.use("/api/listing", listingRouter)
+app.use("/api/post", postRouter)
 
 app.use(errorHandler)
 
